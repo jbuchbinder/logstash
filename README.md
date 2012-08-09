@@ -21,6 +21,14 @@ build with [fpm](https://github.com/jordansissel/fpm). If you are interested in
 seeing future releases include your favorite packaging format, please let me
 know.
 
+## Building a native Ruby version
+
+    gem install bundler
+    bundle install --deployment
+
+Everything should be available to install locally under the tree, and should
+not require any additional system-wide configuration.
+
 ## Contributing
 
 All contributions are welcome: ideas, patches, documentation, bug reports,
